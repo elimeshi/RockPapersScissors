@@ -1,1 +1,32 @@
-<script src="main.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="buttons">
+        <button id="rock">Rock</button>
+        <button id="paper">paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+    <div id="choices">
+        <p id="human-choice">Your choice: </p>
+        <p id="computer-choice">Computer choice: </p>
+    </div>
+    <div id="outcome">
+        <h2>Choose your weapon!</h2>
+    </div>
+    <div id="result">
+        <h3>Result:</h3>
+        <p id="human-score">You - 0</p>
+        <p id="computer-score">Computer - 0</p>
+    </div>
+    <div id="reset">
+        <button id="reset-button" onclick="resetGame()">Reset game</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
